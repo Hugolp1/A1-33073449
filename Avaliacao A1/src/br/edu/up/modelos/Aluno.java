@@ -5,22 +5,21 @@ public class Aluno {
     private String nome;
     private double nota;
 
-    public Aluno(int matricula, String nome, double nota){
+    public Aluno(int matricula, String nome, double nota) {
         this.matricula = matricula;
         this.nome = nome;
         this.nota = nota;
     }
 
-    public int getMatricula(){
+    public int getMatricula() {
         return matricula;
     }
-    
-    public String getNome(){
+
+    public String getNome() {
         return nome;
     }
-    
-    public double getNota(){
+
+    public double getNota() {
         return nota;
     }
-
 }
